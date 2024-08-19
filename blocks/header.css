@@ -1,0 +1,47 @@
+.header__top {
+    width: 254.84px;
+    height: 68.94px;
+    padding: 0px;
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 0;
+    gap: 22px;
+}
+
+.header__bottom {
+    color: white;
+    max-width: 983px;
+    max-height: 984px;
+}
+
+.header__bottom-title {
+    width: 720px;
+    height: 200px;
+    font-family: "Inter", sans-serif;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: .96;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.header__bottom-subtitle {
+    width: 720px;
+    height: 72px;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.header__bottom-image {
+    display: flex;
+    width: 984px;
+    height: 615px;
+    margin-top: 7%;
+    object-fit: contain;
+}

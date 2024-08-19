@@ -1,0 +1,39 @@
+.content__box {
+    color: white;
+    text-align: left;
+    width: 830px;
+    height: 607px;
+    margin-top: 15%;
+}
+
+.content__title {
+    font-family: Inter, sans-serif;
+    font-size: 54px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.content__text-item {
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+}
+
+.content__text-item-name {
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: right;
+}
+
+.content__text-item2 {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.08px;
+    text-align: left;
+    margin-top: 5%;
+}
