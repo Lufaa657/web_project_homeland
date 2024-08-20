@@ -3,7 +3,9 @@
     text-align: left;
     width: 830px;
     height: 607px;
-    margin-top: 15%;
+    margin-top: 8%;
+    margin-right: auto;
+    margin-left: 11%;
 }
 
 .content__title {
@@ -19,6 +21,7 @@
     font-weight: 400;
     line-height: 34px;
     text-align: left;
+    width: 90%;
 }
 
 .content__text-item-name {
@@ -27,6 +30,7 @@
     font-weight: 400;
     line-height: 34px;
     text-align: right;
+    margin-right: 12%;
 }
 
 .content__text-item2 {
@@ -36,4 +40,82 @@
     line-height: 26.08px;
     text-align: left;
     margin-top: 5%;
+    width: 87%;
+}
+
+@media screen and (max-width: 1024px) {
+    .content__box {
+        color: white;
+        text-align: left;
+        width: 720px;
+        height: 573px;
+        margin-top: 13%;
+        object-fit: contain;
+        margin-left: 3%;
+    }
+
+    .content__title {
+        font-family: 'Inter', sans-serif;
+        font-size: 45px;
+        font-weight: 900;
+        line-height: normal;
+        text-align: left;
+        width: 90%;
+    }
+
+    .content__text-item {
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 34px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .content__text-item-name {
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 34px;
+        text-align: right;
+        margin-right: 2%;
+    }
+
+    .content__text-item2 {
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26.08px;
+        text-align: left;
+        margin-top: 5%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .content__box {
+        color: white;
+        text-align: left;
+        width: 288px;
+        height: 1033px;
+        margin-top: 15%;
+    }
+
+    .content__title {
+        font-family: Inter, sans-serif;
+        font-size: 32px;
+        font-weight: 900;
+        text-align: left;
+        width: 100%;
+    }
+
+    .content__text-item {
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 34px;
+        text-align: left;
+        width: 100%;
+        margin-top: 15%;
+    }
 }
