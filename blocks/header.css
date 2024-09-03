@@ -45,6 +45,7 @@
     height: 615px;
     margin-top: 7%;
     object-fit: contain;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 1024px) {
