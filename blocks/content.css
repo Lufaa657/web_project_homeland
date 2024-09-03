@@ -79,7 +79,7 @@
     grid-template-columns: repeat(2, 2fr);
 }
 
-.content__card_mxli {
+.content__card-mxli {
     margin-top: 15%;
 }
 
@@ -113,11 +113,13 @@
     width: 500px;
     height: 500px;
     opacity: 1;
-    box-shadow: 4px 4px rgb(#000);
+    box-shadow: (10px, 10px, 10px, #000000);
+
 }
 
 .content__imagen:hover {
     opacity: .5;
+    box-shadow: (10px, 10px, 10px, #000000);
 }
 
 .content__imagen_mxli {
@@ -143,10 +145,12 @@
     margin-left: 3%;
     margin-top: 5%;
     opacity: 1;
+    box-shadow: (10px, 10px, 10px, #000000);
 }
 
 .content__boton:hover {
     opacity: 0.5;
+    box-shadow: (10px, 10px, 10px, #000000);
 }
 
 
