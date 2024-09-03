@@ -43,6 +43,109 @@
     width: 87%;
 }
 
+
+
+
+.imagenes__itemss {
+    width: 1184px;
+    height: 442px;
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    grid-template-rows: repeat(2, 2fr);
+    grid-gap: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15%;
+}
+
+
+
+
+.ciudades__cards {
+    width: 987px;
+    height: auto;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ciudades__item {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.ciudades__titulo {
+    font-size: 72px;
+    line-height: 1.1;
+    margin: 0;
+    padding: 0;
+    padding-left: 1.5%;
+    padding-bottom: 2%;
+}
+
+.ciudades__artistas {
+    line-height: 1.2;
+    margin: 0;
+    margin-top: 19%;
+    padding: 0;
+}
+
+.ciudades__artistas_solo {
+    color: gray;
+    font-size: 12px;
+    line-height: .2;
+    margin: 0;
+    padding: 0;
+}
+
+.ciudades__imagen {
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 500px;
+    opacity: 1;
+}
+
+.ciudades__imagen:hover {
+    opacity: .5;
+}
+
+.ciudades__imagen_mxli {
+    width: 465px;
+    height: 465px;
+}
+
+.ciudades__descripcion {
+    width: 487px;
+    line-height: 1.6;
+    height: 500px;
+    overflow: visible;
+}
+
+.ciudades__boton {
+    width: 289px;
+    height: 48px;
+    color: white;
+    background-image: linear-gradient(#0278FE, #003A7B);
+    border-radius: 4px;
+    border: none;
+    margin-left: 3%;
+    margin-top: 5%;
+    opacity: 1;
+}
+
+.ciudades__boton:hover {
+    opacity: 0.5;
+}
+
+
+/* Medidas de pantalla media*/
+
 @media screen and (max-width: 1024px) {
     .content__box {
         color: white;
@@ -90,9 +193,98 @@
         margin-top: 5%;
         width: 100%;
     }
+
+
+
+
+    .imagenes__itemss {
+        display: grid;
+        grid-gap: 16px;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: repeat(4, 4fr);
+        margin-top: 12%;
+        margin-left: 2.5%;
+        width: 720px;
+        height: 1104px;
+    }
+
+    .imagenes__item {
+        width: 352px;
+        height: 264px;
+    }
+    
+
+
+
+    .ciudades__cards {
+        width: 720px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;
+    }
+
+    .ciudades__item {
+        color: white;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        margin-top: 30%;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .ciudades__titulo {
+        font-size: 42px;
+        line-height: 1.1;
+        margin: 0;
+        padding: 0;
+        padding-left: 1.5%;
+        padding-bottom: 2%;
+    }
+
+    .ciudades__artistas {
+        line-height: 1.2;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .ciudades__imagen {
+        margin: 0;
+        padding: 0;
+        width: 360px;
+        height: 360px;
+    }
+    
+    .ciudades__imagen_mxli {
+        width: 330px;
+        height: 330px;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+    
+    .ciudades__descripcion {
+        width: 352px;
+        line-height: 1.6;
+        height: 360px;
+        overflow: visible;
+    }
+
+    .ciudades__item_mxli {
+        margin-top: 55%;
+    }
 }
 
+
+
+
+/*medidas para pantalla pequeña*/
+
 @media screen and (max-width: 544px) {
+    .html {
+        max-width: 320px;
+    }
     .content__box {
         color: white;
         text-align: left;
@@ -117,5 +309,91 @@
         text-align: left;
         width: 100%;
         margin-top: 15%;
+    }
+
+    .imagenes__itemss {
+        display: grid;
+        grid-gap: 12px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 8fr);
+        margin-top: 35%;
+        margin-left: 2.5%;
+        width: 288px;
+        height: 1812px;
+    }
+
+
+
+    .ciudades__cards {
+        width: 300px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        margin-top: 145%;
+
+    }
+    
+    .ciudades__item {
+        color: white;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        margin-top: 20%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .ciudades__titulo {
+        width: 288px;
+        font-size: 32px;
+        line-height: 1.1;
+        margin: 0;
+        padding: 0;
+        padding-left: 1.5%;
+    }
+    
+    .ciudades__artistas {
+        line-height: 1.2;
+        width: 288px;
+        margin: 0;
+        margin-left: 4%;
+        margin-top: 9%;
+        padding: 0;
+    }
+    
+    .ciudades__imagen {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+    
+    .ciudades__imagen_mxli {
+        width: auto;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .ciudades__descripcion {
+        width: 290px;
+        line-height: 1.6;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        margin-left: 4%;
+    }
+    
+    .ciudades__boton {
+        width: 280px;
+        height: 48px;
+        color: white;
+        background-image: linear-gradient(#0278FE, #003A7B);
+        border-radius: 4px;
+        border: none;
+        padding: 0;
+        margin-left: 4%;
+        margin-right: 0;
+        margin-top: 5%;
     }
 }
