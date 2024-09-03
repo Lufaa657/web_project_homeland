@@ -46,7 +46,7 @@
 
 
 
-.imagenes__itemss {
+.content__imageness {
     width: 1184px;
     height: 442px;
     display: grid;
@@ -61,7 +61,7 @@
 
 
 
-.ciudades__cards {
+.content__cards {
     width: 987px;
     height: auto;
     margin-top: 8%;
@@ -69,7 +69,7 @@
     margin-right: auto;
 }
 
-.ciudades__item {
+.content__card {
     color: white;
     font-size: 18px;
     margin: 0;
@@ -79,7 +79,11 @@
     grid-template-columns: repeat(2, 2fr);
 }
 
-.ciudades__titulo {
+.content__card_mxli {
+    margin-top: 10%;
+}
+
+.content__card_titulo {
     font-size: 72px;
     line-height: 1.1;
     margin: 0;
@@ -88,14 +92,14 @@
     padding-bottom: 2%;
 }
 
-.ciudades__artistas {
+.content__artistas {
     line-height: 1.2;
     margin: 0;
     margin-top: 19%;
     padding: 0;
 }
 
-.ciudades__artistas_solo {
+.content__artistas_solo {
     color: gray;
     font-size: 12px;
     line-height: .2;
@@ -103,7 +107,7 @@
     padding: 0;
 }
 
-.ciudades__imagen {
+.content__imagen {
     margin: 0;
     padding: 0;
     width: 500px;
@@ -111,23 +115,23 @@
     opacity: 1;
 }
 
-.ciudades__imagen:hover {
+.content__imagen:hover {
     opacity: .5;
 }
 
-.ciudades__imagen_mxli {
+.content__imagen_mxli {
     width: 465px;
     height: 465px;
 }
 
-.ciudades__descripcion {
+.content__descripcion {
     width: 487px;
     line-height: 1.6;
     height: 500px;
     overflow: visible;
 }
 
-.ciudades__boton {
+.content__boton {
     width: 289px;
     height: 48px;
     color: white;
@@ -139,7 +143,7 @@
     opacity: 1;
 }
 
-.ciudades__boton:hover {
+.content__boton:hover {
     opacity: 0.5;
 }
 
@@ -197,7 +201,7 @@
 
 
 
-    .imagenes__itemss {
+    .content__imageness {
         display: grid;
         grid-gap: 16px;
         grid-template-columns: repeat(2, 2fr);
@@ -216,7 +220,7 @@
 
 
 
-    .ciudades__cards {
+    .content__cards {
         width: 720px;
         height: auto;
         margin-left: auto;
@@ -224,7 +228,7 @@
         margin-top: 15%;
     }
 
-    .ciudades__item {
+    .content__card {
         color: white;
         font-size: 16px;
         margin: 0;
@@ -234,7 +238,7 @@
         grid-template-columns: repeat(2, 2fr);
     }
 
-    .ciudades__titulo {
+    .content__card_titulo {
         font-size: 42px;
         line-height: 1.1;
         margin: 0;
@@ -243,28 +247,28 @@
         padding-bottom: 2%;
     }
 
-    .ciudades__artistas {
+    .content__artistas {
         line-height: 1.2;
         margin: 0;
         padding: 0;
         
     }
     
-    .ciudades__imagen {
+    .content__imagen {
         margin: 0;
         padding: 0;
         width: 360px;
         height: 360px;
     }
     
-    .ciudades__imagen_mxli {
+    .content__imagen_mxli {
         width: 330px;
         height: 330px;
         margin-left: 3%;
         margin-top: 5%;
     }
     
-    .ciudades__descripcion {
+    .content__descripcion {
         width: 352px;
         line-height: 1.6;
         height: 360px;
@@ -311,7 +315,7 @@
         margin-top: 15%;
     }
 
-    .imagenes__itemss {
+    .content__imageness {
         display: grid;
         grid-gap: 12px;
         grid-template-columns: repeat(1, 1fr);
@@ -324,7 +328,7 @@
 
 
 
-    .ciudades__cards {
+    .content__cards {
         width: 300px;
         height: auto;
         margin: 0;
@@ -333,7 +337,7 @@
 
     }
     
-    .ciudades__item {
+    .content__card {
         color: white;
         font-size: 16px;
         margin: 0;
@@ -343,7 +347,7 @@
         grid-template-columns: repeat(1, 1fr);
     }
     
-    .ciudades__titulo {
+    .content__card_titulo {
         width: 288px;
         font-size: 32px;
         line-height: 1.1;
@@ -352,7 +356,7 @@
         padding-left: 1.5%;
     }
     
-    .ciudades__artistas {
+    .content__artistas {
         line-height: 1.2;
         width: 288px;
         margin: 0;
@@ -361,21 +365,21 @@
         padding: 0;
     }
     
-    .ciudades__imagen {
+    .content__imagen {
         margin: 0;
         padding: 0;
         width: auto;
         height: auto;
     }
     
-    .ciudades__imagen_mxli {
+    .content__imagen_mxli {
         width: auto;
         height: auto;
         padding: 0;
         margin: 0;
     }
     
-    .ciudades__descripcion {
+    .content__descripcion {
         width: 290px;
         line-height: 1.6;
         height: auto;
@@ -384,7 +388,7 @@
         margin-left: 4%;
     }
     
-    .ciudades__boton {
+    .content__boton {
         width: 280px;
         height: 48px;
         color: white;
