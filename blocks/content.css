@@ -80,10 +80,10 @@
 }
 
 .content__card_mxli {
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
-.content__card_titulo {
+.content__card-titulo {
     font-size: 72px;
     line-height: 1.1;
     margin: 0;
@@ -99,7 +99,7 @@
     padding: 0;
 }
 
-.content__artistas_solo {
+.content__artistas-solo {
     color: gray;
     font-size: 12px;
     line-height: .2;
@@ -113,6 +113,7 @@
     width: 500px;
     height: 500px;
     opacity: 1;
+    box-shadow: 4px 4px rgb(#000);
 }
 
 .content__imagen:hover {
@@ -122,6 +123,7 @@
 .content__imagen_mxli {
     width: 465px;
     height: 465px;
+    margin-top: 5%;
 }
 
 .content__descripcion {
@@ -135,7 +137,7 @@
     width: 289px;
     height: 48px;
     color: white;
-    background-image: linear-gradient(#0278FE, #003A7B);
+    background-image: linear-gradient(to right, #0278FE 0%, #003A7B 100%);
     border-radius: 4px;
     border: none;
     margin-left: 3%;
@@ -238,7 +240,7 @@
         grid-template-columns: repeat(2, 2fr);
     }
 
-    .content__card_titulo {
+    .content__card-titulo {
         font-size: 42px;
         line-height: 1.1;
         margin: 0;
@@ -347,7 +349,7 @@
         grid-template-columns: repeat(1, 1fr);
     }
     
-    .content__card_titulo {
+    .content__card-titulo {
         width: 288px;
         font-size: 32px;
         line-height: 1.1;
