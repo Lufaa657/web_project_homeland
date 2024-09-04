@@ -138,7 +138,7 @@
 .content__boton {
     display: inline-block;
     padding: 10px 15px;
-    background: linear-gradient(90deg, #0278FE 0%, #003A7B 100%);
+    background-image: linear-gradient(90deg, #0278FE 0%, #003A7B 100%);
     color: white;
     text-align: center;
     text-decoration: none;
