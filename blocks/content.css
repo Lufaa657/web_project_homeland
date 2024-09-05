@@ -88,7 +88,6 @@
     line-height: 1.1;
     margin: 0;
     padding: 0;
-    
     padding-bottom: 2%;
 }
 
@@ -411,5 +410,6 @@
         margin-left: 4%;
         margin-right: 0;
         margin-top: 5%;
+        background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
     }
 }
