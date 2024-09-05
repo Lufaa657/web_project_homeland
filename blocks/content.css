@@ -146,26 +146,15 @@
     cursor: pointer;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
     margin-top: 10%;
-    /*background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);*/
-    background: linear-gradient(
-        90deg,
-        rgb(2, 120, 254) 0%,
-        rgb(0, 58, 123) 99.98%
-      );
-
+    background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
 }
 
 .content__boton:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-    /*background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);*/
+    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     border: 1px solid black;
     opacity: 25%;
     cursor: pointer;
-    background: linear-gradient(
-        90deg,
-        rgb(2, 120, 254) 0%,
-        rgb(0, 58, 123) 99.98%
-      );
 }
 
 
