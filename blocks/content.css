@@ -157,6 +157,12 @@
     cursor: pointer;
 }
 
+.hover.content__boton:hover {
+
+    background: linear-gradient(#0278FE, #003A7B);
+
+}
+
 
 /* Medidas de pantalla media*/
 
